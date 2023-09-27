@@ -4,6 +4,12 @@
     <TargetFramework>net7.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationInsightsResourceId>/subscriptions/ea3114a1-3f24-43b2-80ac-64479fdb7a66/resourceGroups/azure-test-rg/providers/microsoft.insights/components/azure-app-test-vs</ApplicationInsightsResourceId>
+    <UserSecretsId>4c447890-8b52-497c-8f96-bdb594560413</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.15.0" />
+  </ItemGroup>
 
 </Project>
